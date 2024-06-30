@@ -1,0 +1,70 @@
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; ;
+}
+
+#calicocut {
+    font-family: Papyrus, fantasy;
+    font-style: italic;
+    color: midnightblue;
+}
+
+
+.top {
+    display: flex;
+    background-color: whitesmoke;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    top: 0;
+    box-shadow: 0px -5px 20px #323295;
+}
+.button{
+    border-radius: 50%;
+}
+
+.button:hover {
+    background-color: lightgray;
+}
+
+.give {
+    display: flex;
+    background-color: darkslateblue;
+    margin-top: 78px;
+    justify-content: center;
+    width: 100%;
+    color: aliceblue;
+}
+
+.casualpants {
+    
+    display: flex;
+    width: 50%;
+    font-size: 25px;
+    
+}
+
+.container {
+    width: 33%;
+    margin-left: 33%;
+
+}
+
+.pantsContainer {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.pantsContainer img {
+    flex: 1 1 auto;
+}
+
